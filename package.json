@@ -1,0 +1,57 @@
+{
+  "name": "strapi-provider-upload-google-cloud-storage",
+  "version": "1.0.0",
+  "description": "(Non-official) Google Cloud Storage Provider for Strapi Upload",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint .",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lith/strapi-provider-upload-google-cloud-resize.git"
+  },
+  "keywords": [
+    "strapi",
+    "upload",
+    "provider",
+    "google",
+    "storage",
+    "resize",
+    "gcp"
+  ],
+  "strapi": {
+    "isProvider": true
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lith/strapi-provider-upload-google-cloud-resize/issues"
+  },
+  "homepage": "https://github.com/Lith/strapi-provider-upload-google-cloud-resize#readme",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^4.7.0",
+    "sharp": "^0.25.4",
+    "slugify": "^1.4.5",
+    "strapi": "^3.0.5"
+  },
+  "devDependencies": {
+    "codecov": "^3.7.2",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "mocha": "^8.1.1",
+    "mock-require": "^3.0.3",
+    "nyc": "^15.1.0",
+    "prettier": "^2.0.5"
+  }
+}
