@@ -1,6 +1,6 @@
 # strapi-provider-upload-google-cloud-resize
 
-This is just an extension of the amazing original project available here 👉
+This is an extension of the amazing original project available here 👇
 
 [strapi-provider-upload-google-cloud-storage](https://www.npmjs.com/package/strapi-provider-upload-google-cloud-storage)
 
@@ -36,8 +36,8 @@ yarn add strapi-provider-upload-google-resize
     "optimize": {
       "resize": true,
       "width": 1000,
-		  "height": 1000,
-			"quality": 75
+      "height": 1000,
+      "quality": 75
     }
   }
 }
