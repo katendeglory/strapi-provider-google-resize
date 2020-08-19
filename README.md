@@ -36,9 +36,9 @@ yarn add strapi-provider-upload-google-resize
     "optimize": {
       "resize": true,
       "width": 1000,
-			"height": 1000,
+		  "height": 1000,
 			"quality": 75
     }
   }
 }
-```"# strapi-provider-google-resize" 
+```
